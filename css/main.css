@@ -54,16 +54,16 @@ hr{
 font-size: 1.8em;
 }
 .fa-envelope{
-    color:rgba(0, 105, 255, 0.604);
+    color:white;
 }
 .fa-github{
 color: black;
 }
 .fa-twitter{
-color: #00aced;
+color: #0000FF;
 }
 .fa-linkedin{
-color:#007bb6; 
+color:#0000FF; 
 }
 .footer{
 color: white; 
