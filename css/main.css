@@ -9,7 +9,7 @@ hr{
 
 /* Navigation */
 .navigation{
-    background-color: white;
+    background-color: blue;
 }
 .nav-link{
 }
@@ -21,7 +21,7 @@ hr{
     transform: translateY(-50%);
 }
 .carousel-caption h1{
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px blue;
 }
 /* Buttons */
 .btn{
