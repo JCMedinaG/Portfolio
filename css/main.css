@@ -21,7 +21,7 @@ hr{
     transform: translateY(-50%);
 }
 .carousel-caption h1{
-    text-shadow: 2px 2px 2px #00AAFF;
+    text-shadow: 2px 2px 2px 778899;
 }
 /* Buttons */
 .btn{
