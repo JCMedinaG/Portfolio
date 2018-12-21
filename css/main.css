@@ -36,7 +36,11 @@ text-align: center;
     flex-direction: row-reverse;
 }
 
-
+.card{
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+}
 .btn-outline-secondary{
 
 }
