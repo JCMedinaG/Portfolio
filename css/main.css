@@ -31,10 +31,17 @@ hr{
 }
 text-align: center;
 /* Jumbotron */
-.jumbotron{
-    display: block; 
-    flex-direction: row-reverse;
+.row {
+  display: flex;
 }
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
 
 .card{
 	    display: block;
