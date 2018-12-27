@@ -110,6 +110,8 @@ color:#FFA500;
 color: 778899; 
 }
 footer{
+position:absolute;
+bottom:0;
 background: 778899;
 padding:20px; 
 margin-top: 20px;
