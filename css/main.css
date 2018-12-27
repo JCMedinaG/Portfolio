@@ -83,9 +83,7 @@ button:hover, a:hover {
 
 /* Footer */
 .photo{
-    position:absolute;
-    bottom:0;
-    padding: 20px; 
+  padding: 20px; 
     width: 100%;
     height: auto;
 }
@@ -112,8 +110,7 @@ color:#FFA500;
 color: 778899; 
 }
 footer{
-position:absolute;
-bottom:0;
+
 background: 778899;
 padding:20px; 
 margin-top: 20px;
