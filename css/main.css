@@ -40,6 +40,20 @@ text-align: center;
   padding: 5px;
 }
 
+<style>
+    img {
+        width:20%;
+        float:left;
+        margin:5px;
+    }
+</style>
+ 
+<div>
+    <img src="img/Pandas.jpg" />
+    <img src="img/Matplotlib.png" />
+    <img src="img/MySQL.jpg" />
+    <img src="img/Python.png" />
+</div>
 
 
 
