@@ -56,6 +56,11 @@ text-align: center;
     <img src="img/Python.png" />
 </div>
 
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
 
 
 
