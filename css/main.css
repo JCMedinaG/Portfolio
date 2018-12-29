@@ -65,7 +65,11 @@ text-align: center;
   width: 50%;
 }
 	
-
+.ImageBorder
+{
+    border-width: 1px;
+    border-color: Black;
+}
 
 
 
