@@ -65,9 +65,9 @@ text-align: center;
   width: 50%;
 }
 	
-.ImageBorder
-{
-    border-width: 1px;
+         .ImageBorder {
+
+    border-width: 5px;
     border-color: Black;
 }
 
