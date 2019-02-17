@@ -1,130 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<body background="https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-    <head>
-    <title>Jean Carlos Medina | Data Analyst</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Professional Portfolio: Jean Carlos Medina">
-    <meta name="keywords" content="data, data analyst, resume, portfolio, personal website, Jean Carlos Medina, professional portfolio">
-    <meta name="author" content="Jean Carlos Medina">
-    <script src="js/main.js"></script>
-    <link rel="icon" type="image" href="img/pix.jpg" />
-    <!-- CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jean Carlos Medina</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<div class="container">
-    <body>
-        <!-- Navigation Section -->
-        <div class="navigation">
-            <nav class="navbar navbar-expand-md navbar-light sticky-top">
-                <a class="navbar-brand" href="index.html">Jean Carlos Medina</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<body id="home" class="scrollspy">
 
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="courses.html">Courses</a>
-                        </li>
-                        
-                 
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                </div>
-            </nav>
+  <!--Navbar-->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <!-- <img class="brand-logo" src="calligraphy_as.png" height="40"> -->
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#home">HOME</a>
+        </li>
+        <li>
+          <a href="#about">ABOUT</a>
+        </li>
+       
+        <!-- <li>
+            <a href="#resume">RESUME</a>
+          </li> -->
+             <!--Resume Section-->
+        <li class=""><a href="doc/Jean Carlos Medina.pdf">RESUME <span class="sr-only">(current)</span>
+        </a></li>
+        <li>
+          <a href="#portfolio">PROJECTS</a>
+        </li>
+        <li>
+            <a href="#skills">SKILLS</a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=fuJq_VMAAAAJ&hl=en">PUBLICATIONS<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <!--Side Nav Dropdown (For Mobile)-->
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="#home">HOME</a>
+      </li>
+      <li>
+        <a href="#about">ABOUT</a>
+      </li>
+      <li>
+          <a href="#skills">SKILLS</a>
+        </li>
+      <!-- <li>
+          <a href="#resume">RESUME</a>
+        </li> -->
+      <!--Resume Section-->
+      <li class=""><a href="static/pdfs/Resume.pdf">RESUME <span class="sr-only">(current)</span>
+      </a></li>
+      <li>
+      <li>
+        <a href="#portfolio">PROJECTS</a>
+      </li>
+      <li>
+        <a href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--Intro Section-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <!-- <br><br> -->
+        <div class="row center">
+        <h1 class="header center">Jean Carlos &nbsp; Medina</h1>
+          <h4 class="header center col s12 light">Industrial Engineer| Data Analyst </h4>
         </div>
-     
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/placeholder1.jpg" style= border:"5px double black" borde:"5" alt="First slide">
-                    <div class="carousel-caption">
-                       
-               
-     </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/poly_background.png" alt="polygon-background"></div>
+  </div>
+
+
+  <!--About Section-->
+  <div class="container">
+    <div class="section">
+    <div id="about" class="about-section scrollspy">
+      <div class="row">
+        <div class="col s12 center">
+            
+          <h3><font color= "DarkTurquoise", font size="8">ABOUT ME</font></h3>
+          <hr class="primary">
+          <div class="col l5 s12">
+            <img src="images/profile.jpg" width="300">
+            <!-- <img id="image" src="https://media.licdn.com/dms/image/C4D03AQFpCrgJl8JL4w/profile-displayphoto-shrink_200_200/0?e=1548288000&v=beta&t=cB-e2qsmfkFGfUNB6idXXVxJSZh6R_KTa6jA8zuF3RQ" alt="Tinku Supakar" width="150" height="210" class="pull-left img-responsive img-circle"> -->
+          </div>
+          <div class "col l7 s12">
+            <p class="left-align light" style="font-size:120%;">Data Analyst with more than 10 years of professional experience, and a strong knowledge of statistical methods, data gathering and analysis. Awarded with a certification in Data Analytics and Visualization Bootcamp at UCF where I learned new programming, and visualization tools that I am comfortable with like Excel, Python, SQL, R, and Tableau. Proven technical and leadership abilities in data warehousing, data healthcare, and data management environments. Data has always been a passion for me and nowadays we are living the boom of data analytics and visualization and I will continue to explore data related tools in the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <!--Polygon background-->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/poly_background.png" alt="polygon-background"></div>
+  </div>
+ 
+  
+  <!--Projects-->
+  <div class="container">
+    <div class="section">
+    <div id="portfolio" class="about-section scrollspy">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4><font color= "DarkTurquoise", font size="16">PROJECTS</font></h4><br>
+          <!-- <hr class="primary"> -->
+        </div>
+          <!--plotly-->
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/plotly.png" alt="Plotly" width=350 height=185>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    <a href="https://resi360.herokuapp.com" target="_blank">
+                    Neural Chef
+                    </a>
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title activator grey-text text-darken-4">
+                    bbbbbbb
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    aaaaaaaaaaaaaaa
+                  </p>
+                </div>
+              </div>
             </div>
-           
-        <!-- Jumbotron -->
-        <div class="container-fluid">
-            <div class="row jumbotron">
-                <div class="col-md-6 col-lg-8 col-xl-8">
-                    <br>
-                    <h1 class="display-4">Jean Carlos Medina</h1>
-                    <hr>
-                    <p class="lead">
+            <!--Leaflet-->
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/Leaflet.png" alt="Leaflet" width=350 height=185>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    <a href="https://jcmedinag.github.io/Leaflet.js-Project/" target="_blank">
+                      Leaflet.js
+                    </a>
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title activator grey-text text-darken-4">
+                    Leaflet.js 
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    A visualization page made for the  USGS Earthquake GeoJSON data with Leaflet and JavaScript
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--US Earthquake Visualization-->
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/Earthquake_website.png" alt="sakila-mysql" width=350 height=185>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    <a href="https://github.com/neelarka/Visualizing-Data-for-Earthquakes-in-USA-with-Leaflet.git" target="_blank">
+                      USA Earthquake
+                    </a>
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title activator grey-text text-darken-4">
+                      Earthquake Visualization
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                      bbbbbbbb
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- <a text-align center, id="more_project" href="https://github.com/JCMedinaG">MORE PROJECTS</a> -->
+      <p style="text-align: center">
+          <a class="btn btn-primary btn-lg" href="https://github.com/JCMedinaG" role="button">Other Projects</a>
+      </p>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Polygon Background-->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/poly_background.png" alt="polygon-background"></div>
+  </div>
+
+   <!--Skills-->
+      <div class="container">
+          <div id="skills" class="about-section scrollspy">
+            <div class="row">
+              <div class="col s12 center-align">
+                <h3><font color= "DarkTurquoise", font size="8">SKILLS</font></h3>
+                  <hr class="primary">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="">
                         
-         <div id="justify">          
-
-     <p class="text-justify">Data Analyst with more than 10 years of professional experience, and a strong knowledge of statistical methods, data gathering and analysis. Awarded with a certification in Data Analytics and Visualization Bootcamp at UCF where I learned new programming and visualization tools that I am comfortable with like Excel, Python, SQL, R, and Tableau. Proven technical and leadership abilities in data warehousing, data healthcare and data management environments. Data has always been a passion for me and nowadays we are living the boom of data analytics and visualization and I will continue to explore data related tools in the future.</p>
-
-                </div>
-
-
-                    </p>
-                    <p class="lead">
-                   
-                    </p>
-                    <p class="lead">
-
-                    </p>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-4">
-                    <!-- Card -->
-                    <div class="card" style="max-width:14rem" style="height: auto">
-                        <div class=photo>
-                            <img class="card-img-top" src="img/pix.jpg" alt="Jean Carlos Medina">
-                
+                        <h4>Python Programming</h4>
+                        <p class="" ><font size="4">
+                            Python 3, Numpy, Pandas, Matplotlib, API Interactions, Web-Scraping, SQLAlchemy/Flask
+                        </font>
+                        </p>
                     </div>
                 </div>
-
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="">
+                        <h4>Front-End Web Visualization</h4>
+                        <p class="" style:"text:="" bold"=""><font size="4">
+                            HTML, CSS, Bootstrap, Dashboarding, JavaScript Charting, D3.js, Geomapping with leaflet.js, Plotly
+                        </font>
+                        </p>
+                    </div>
+                    <div class="">
+                      <h4>Databases</h4>
+                      <p class="" style:"text:="" bold"=""><font size="4">
+                          MySQL, MongoDB, Sqlite3
+                      </font>
+                      </p>                     
+                    
+                    </div> 
+                    <div class="">
+                      <h4>Other Skills</h4>
+                      <p class="" style:"text:="" bold"=""><font size="4">
+                        Tableau, Machine Learning, Deep Learning, Natural language Processing
+                      </font>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          
+    <!--Polygon Background-->
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
+          </div>
         </div>
-        <!-- Footer -->
-        <footer>
-            <div class="social">
-                <a href="mailto:jeancarlosmedinagonzalez@gmail.com" target="_blank">
-                    <i class="fa fa-envelope"></i>
-                </a>
-                <a href="https://github.com/JCMedinaG" target="_blank">
-                    <i class="fa fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/jcmg/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://stackoverflow.com/users/9895500/jean-carlos-medina" target="_blank">
-                  <i class="fa fa-stack-overflow" style="font-size:36px;color:orange"></i>
+      </div>
+      <div class="parallax"><img src="images/poly_background.png" alt="polygon-background"></div>
+    </div>
+  <!--Contact-->
+  <footer class="page-footer blue lighten-1">
+    <div class="container">
+      <div id="contact" class="contact-section scrollspy">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h5 class="center-align white-text">C O N T A C T</h5><br>
+              <a class="center-align white-text" href="mailto:datajcmg@gmail.com" target="_blank"><i class="far fa-envelope fa-4x">&nbsp;&nbsp;</i></a>
+              <a class="center-align white-text" href="https://www.linkedin.com/in/jcmg/" target="_blank"><i class="fab fa-linkedin fa-4x">&nbsp;&nbsp;</i></a>
+              <a class="center-align white-text" href="https://github.com/JCMedinaG" target="_blank"><i class="fab fa-github fa-4x"></i></a>
+          </div>
+          <div class="row">
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="center-align container">
+        &copy2019 . &nbsp;Jean Carlos Medina
+      </div>
+    </div>
+  </footer>
 
-                </a>
-            </div>
 
-            <p class="footer">Copyright &copy; Jean Carlos Medina 2018</p>
-        </footer>
-</div>
-</body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
+  </body>
 </html>
