@@ -1,2 +1,1 @@
-(img/portfolio.png)
-![Fantasy](Images/Fantasy.jpg)
+![Portfolio](img/portfolio.png)
