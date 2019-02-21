@@ -1,1 +1,1 @@
-img/portfolio
+img/portfolio.png
